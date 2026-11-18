@@ -3,7 +3,15 @@ name = "rs-arrow-timestamps2pgcopy"
 version = "0.1.0"
 edition = "2024"
 
+description = "Converts the timestamp values in the array to pgcopy bytes."
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-arrow-timestamps2pgcopy"
+documentation = "https://docs.rs/rs-arrow-timestamps2pgcopy/latest"
+keywords = ["arrow", "postgres", "pgcopy", "convert", "timestamp"]
+
 exclude = [
+  "arrow-array-log2pgcopy.wasm",
+  "package-lock.json",
 ]
 
 [lints.rust]
